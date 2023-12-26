@@ -20,7 +20,7 @@ cover:
     invert_position_report: true
 ```
 
-This is for a Zemismart `ZMTQ25-TYW`. This blind reports it's position as 0 to 100 once calibrated,
+This is for a Zemismart `ZM25TQ (TY-W)`. This blind reports it's position as 0 to 100 once calibrated,
 but inverts that report if you invert the motor direction. The problem is this makes the report
 consistently "percentage open" and ESPHome cover components and Home Assistant both deal consistently
 with "% closed".
